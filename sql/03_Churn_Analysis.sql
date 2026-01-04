@@ -1,3 +1,14 @@
+/*
+File: 03_churn_analysis.sql
+Purpose: Business-driven churn analysis
+Includes:
+- Churn rate calculation
+- Revenue loss due to churn
+- Churn by contract, tenure, internet type
+- High-value churned customers
+*/
+
+
 use db_churn;
 
 #1 Total number of customers
