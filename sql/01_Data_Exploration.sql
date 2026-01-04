@@ -1,3 +1,13 @@
+/*
+File: 01_data_exploration.sql
+Purpose: Initial exploration of customer churn dataset
+Includes:
+- Row counts
+- Column overview
+- Null and empty value checks
+*/
+
+
 Create database DB_churn;
 use DB_churn;
 
@@ -46,7 +56,6 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS;
-
 
 
 
