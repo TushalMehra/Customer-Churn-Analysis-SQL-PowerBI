@@ -1,4 +1,7 @@
 <h1>📊 Customer Churn Analysis</h1>
+
+<img width="1433" height="811" alt="image" src="https://github.com/user-attachments/assets/0a2bf2b2-3986-4ae8-b28b-9ba9417bfc84" />
+
 <h3>End-to-End SQL + Power BI Data Analytics Project</h3>
 
 <hr>
@@ -108,6 +111,7 @@ Customer-Churn-Analysis/
 <hr>
 
 <h2>📊 Power BI Dashboard</h2>
+
 
 <ul>
   <li>Total customers vs churned customers</li>
