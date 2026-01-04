@@ -1,3 +1,14 @@
+/*
+File: 02_data_cleaning.sql
+Purpose: Data cleaning and feature engineering
+Includes:
+- Handling null & empty values
+- Data type conversions
+- Standardizing churn labels
+- Creating tenure and spending groups
+*/
+
+
 use DB_churn;
 
 select count(*) from customers_raw;
