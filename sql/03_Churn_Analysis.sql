@@ -121,12 +121,12 @@ group by Tenure_Group;
 select 
 case 
 when Monthly_Charge < 40 then "Low"
-when Monthly_Charge < 40-80 then "Midium"
+when Monthly_Charge between 40 and 80 then "Medium"
 Else "High"
 end as Spending_Category, 
 count(*) as Customers, 
-sum(case when Customer_Status = "Churned" then 1 end) as churned,
-(sum(case when Customer_Status = "Churned" then 1 end)/ count(*) * 100) as Percent_Churned
+sum(case when Customer_Status = "Churned" then 1 else 0 end),
+(sum(case when Customer_Status = "Churned" then 1 else 0 end)/ count(*) * 100) as Percent_Churned
 from customers_raw
 group by Spending_Category;
 
